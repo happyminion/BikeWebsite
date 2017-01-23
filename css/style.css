@@ -1,0 +1,123 @@
+/*Fonts*/
+
+.heading {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: black;
+}
+.smalltext {
+    font-family: 'Lora', serif;
+    color: black;
+}
+
+/* Images */
+
+.desaturate {
+    filter: grayscale(50%);
+}
+
+/* Navigation bar*/
+
+
+.icon-bar{
+    background: black;
+}
+.navbar{
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.navbar a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: black;
+}
+.navbar-brand{
+    padding: 3px;
+}
+
+/*Carousel*/
+
+.carouselheading{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: black;
+}
+.carouselsmalltext {
+        font-family: 'Lora', serif;
+        color: white;
+        font-weight: 400;
+}
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+.carousel-caption {
+    text-align: right;
+}
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+}
+
+/*About section*/
+
+#about{
+    background-color: white;
+}
+.service-box {
+    text-align: center;
+    min-height: 320px;
+    padding: 30px;
+}
+
+/* CTA section */
+
+.btn-huge{
+    padding: 20px;
+    border-color: black;
+}
+
+/*Portfolio section*/
+
+.icon {
+    width: 50px;
+    height: 86px;
+    border-top: 3px;
+    border-bottom: 3px;
+    margin: 0 auto 25px;
+    position: relative;
+}
+.img-portfolio {
+    padding: 30px;
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+}
+.img-fade
+{
+        opacity:1;
+}
+.img-fade:hover
+{
+        opacity:0.5;
+}
+
+/*Footer section*/
+
+#contact {
+    margin: 0 auto;
+}
+.icon-footer{
+    width: 20px;
+    height: 56px;
+}
+.li-footer {
+    margin-bottom: -4px;
+    padding: 0;
+}
+@media only screen and (max-width: 480px) {
+    .carouselheading {
+        display: none;
+    }
+}
